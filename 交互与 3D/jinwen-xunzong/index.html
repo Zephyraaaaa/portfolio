@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="《锦纹寻踪》是一款以侗锦为主题的剧情解谜游戏。查看《侗锦织梦》设计展板、场景美术与原版 Windows 课程 Demo。">
+  <title>锦纹寻踪 · 泽菲拉的作品集</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #f7f0e5;
+      --ink: #242e33;
+      --muted: #564c42;
+      --line: #cebdab;
+      --red: #863d32;
+      --indigo: #243946;
+      --pale: #fbf5e9;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font: 1rem/1.7 "Noto Sans SC", "Microsoft YaHei", "PingFang SC", sans-serif;
+    }
+    a { color: inherit; text-underline-offset: .23em; }
+    a:focus-visible { outline: 3px solid #a14b3d; outline-offset: 5px; }
+    img { display: block; width: 100%; height: auto; }
+    figure, p, h1, h2, h3 { margin: 0; }
+    .wrap { max-width: 1220px; width: calc(100% - 72px); margin-inline: auto; }
+    header { border-bottom: 1px solid var(--line); }
+    .nav {
+      min-height: 73px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      font-size: .89rem;
+    }
+    .nav a:first-child { letter-spacing: .13em; text-decoration: none; font-weight: 750; }
+    main { padding-bottom: 68px; }
+    .hero {
+      display: grid;
+      grid-template-columns: .84fr 1.16fr;
+      align-items: center;
+      gap: clamp(24px, 5vw, 70px);
+      padding-block: clamp(42px, 8vw, 105px) clamp(38px, 5vw, 65px);
+    }
+    .category { color: var(--red); font-weight: 700; letter-spacing: .12em; font-size: .85rem; }
+    h1 { font-size: clamp(3rem, 7vw, 6.45rem); line-height: 1.1; letter-spacing: -.055em; margin-block: 14px 19px; }
+    .intro { color: var(--muted); font-size: 1.06rem; max-width: 34ch; }
+    .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 23px; }
+    .action {
+      min-height: 46px;
+      display: inline-flex;
+      align-items: center;
+      padding: 9px 17px;
+      border: 1px solid var(--line);
+      text-decoration: none;
+      font-weight: 650;
+    }
+    .action:hover { border-color: var(--red); }
+    .primary { background: var(--indigo); border-color: var(--indigo); color: var(--pale); }
+    .primary:hover { background: #344f60; }
+    .hero-art img { border: 1px solid var(--line); }
+    figcaption { color: var(--muted); font-size: .86rem; margin-top: 8px; }
+    section { padding-block: 36px; border-top: 1px solid var(--line); }
+    h2 { font-size: clamp(1.4rem, 3vw, 2.05rem); line-height: 1.25; margin-bottom: 18px; }
+    .gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+    .gallery img { border: 1px solid var(--line); }
+    .board {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1.24fr);
+      gap: clamp(23px, 6vw, 72px);
+      align-items: start;
+    }
+    .board p, .launch-note { max-width: 57ch; color: var(--muted); }
+    .board figure { max-width: 640px; }
+    .board a { display: block; }
+    .downloads { list-style: none; margin: 20px 0 0; padding: 0; border-top: 1px solid var(--line); }
+    .downloads li { border-bottom: 1px solid var(--line); }
+    .downloads a { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding-block: 11px; }
+    .download-size { color: var(--muted); white-space: nowrap; }
+    .compatibility { font-size: .88rem; color: var(--muted); margin-top: 12px; }
+    @media (max-width: 760px) {
+      .wrap { width: calc(100% - 34px); }
+      .hero, .board { grid-template-columns: minmax(0, 1fr); }
+    }
+    @media (max-width: 495px) {
+      .gallery { grid-template-columns: minmax(0, 1fr); }
+      .nav { min-height: 57px; }
+      .hero { padding-top: 32px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="wrap nav" aria-label="作品集导航">
+      <a href="../../">ZEPHYRA</a>
+      <a href="../">交互与 3D</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <div class="hero">
+      <div>
+        <p class="category">剧情解谜 · Windows 课程 Demo</p>
+        <h1>锦纹寻踪</h1>
+        <p class="intro">跟着阿朵从老宅走进小院和鼓楼，寻找散落的侗锦纹样，观察场景里的线索，拼回破损的古锦。</p>
+        <div class="actions">
+          <a class="action primary" href="https://github.com/Zephyraaaaa/portfolio/releases/download/jinwen-xunzong-demo/jinwen-xunzong-windows-demo.zip">下载 Windows 试玩包</a>
+          <a class="action" href="#downloads">美术与视频素材</a>
+        </div>
+      </div>
+      <figure class="hero-art">
+        <img src="assets/old-house.webp" alt="老宅堂屋里摆着木柜、织布机，墙上挂着两块残锦" width="1120" height="628" fetchpriority="high">
+        <figcaption>老宅堂屋 · 场景美术</figcaption>
+      </figure>
+    </div>
+
+    <section aria-labelledby="scenes-title">
+      <h2 id="scenes-title">从小院到鼓楼</h2>
+      <div class="gallery">
+        <figure>
+          <img src="assets/courtyard.webp" alt="阳光下的院子里挂着靛蓝色晒布，旁边摆着线筐与织机" width="1120" height="628" loading="lazy">
+          <figcaption>小院晒布场</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/drum-tower.webp" alt="鼓楼木梁下，一位老人坐在火塘边" width="1120" height="628" loading="lazy">
+          <figcaption>鼓楼一层 · 火塘屋</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="board" aria-labelledby="board-title">
+      <div>
+        <h2 id="board-title">《侗锦织梦》设计展板</h2>
+        <p>展板记录了项目的世界观、场景、角色和纹样图标，也保留了早期游戏界面与玩法构想。</p>
+      </div>
+      <figure>
+        <a href="assets/design-board.webp">
+          <img src="assets/design-board.webp" alt="《侗锦织梦》展板，包含世界观介绍、配色、场景、人物和纹样图标" width="850" height="1700" loading="lazy">
+        </a>
+        <figcaption>点击放大查看展板</figcaption>
+      </figure>
+    </section>
+
+    <section id="downloads" aria-labelledby="downloads-title">
+      <h2 id="downloads-title">试玩与素材下载</h2>
+      <p class="launch-note">完整解压试玩 ZIP 后，双击里面的 <code>锦纹寻踪.exe</code>。运行时保留同目录下的游戏数据与运行库。</p>
+      <p class="compatibility">Windows 11 测试中可进入游戏场景，曾在加载后续场景后遇到 Unity 崩溃。</p>
+      <ul class="downloads">
+        <li><a href="https://github.com/Zephyraaaaa/portfolio/releases/download/jinwen-xunzong-demo/jinwen-xunzong-windows-demo.zip"><span>原版 Windows 试玩包</span><span class="download-size">432 MiB</span></a></li>
+        <li><a href="https://github.com/Zephyraaaaa/portfolio/releases/download/jinwen-xunzong-demo/jinwen-xunzong-art-assets.zip"><span>美术素材 · 场景、角色、道具、UI 和分镜</span><span class="download-size">601 MiB</span></a></li>
+        <li><a href="https://github.com/Zephyraaaaa/portfolio/releases/download/jinwen-xunzong-demo/jinwen-xunzong-video-assets.zip"><span>项目视频 · 6 段</span><span class="download-size">70 MiB</span></a></li>
+      </ul>
+      <div class="actions">
+        <a href="https://github.com/Zephyraaaaa/portfolio/releases/tag/jinwen-xunzong-demo">查看 GitHub Release</a>
+        <a href="https://github.com/Zephyraaaaa/portfolio/releases/download/jinwen-xunzong-demo/SHA256SUMS.txt">SHA-256 校验</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
