@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="泽菲拉的交互设计作品《伦敦圣诞》，一张可探索 13 处圣诞街景的伦敦 3D 微缩地图。">
   <meta name="theme-color" content="#f7f4ed">
-  <title>泽菲拉 · 作品集</title>
+  <title>伦敦圣诞 · 泽菲拉的作品集</title>
   <style>
     :root {
       color-scheme: light;
@@ -26,8 +26,8 @@
     h1, h2, p, figure { margin: 0; }
     .wrap { width: min(100% - 56px, 1216px); margin-inline: auto; }
     .site-header { display: flex; justify-content: space-between; align-items: center; gap: 16px; min-height: 75px; border-bottom: 1px solid var(--rule); }
-    .wordmark { font-size: .8rem; font-weight: 800; letter-spacing: .16em; }
     .site-header a { font-size: .875rem; text-decoration: none; }
+    .site-header .wordmark { color: var(--ink); font-size: .8rem; font-weight: 800; letter-spacing: .16em; }
     .site-header a:hover { text-decoration: underline; }
     .intro { padding: clamp(32px, 5vw, 64px) 0 28px; }
     h1 { font: 700 clamp(2.65rem, 5.15vw, 5rem)/1.08 var(--serif); letter-spacing: -.055em; }
@@ -77,7 +77,7 @@
 </head>
 <body>
   <header class="site-header wrap">
-    <span class="wordmark">ZEPHYRA</span>
+    <a class="wordmark" href="../../" aria-label="返回作品集首页">ZEPHYRA</a>
     <a href="#concept">设计理念 <span aria-hidden="true">↓</span></a>
   </header>
 
@@ -86,7 +86,7 @@
 
     <article class="feature" id="feature" aria-labelledby="feature-title">
       <figure class="feature-art">
-        <img src="interactive/london-christmas/cover.png" alt="蓝调时刻的考文特花园微缩场景，圣诞树和市集摊位亮起暖灯" fetchpriority="high">
+        <img src="cover.png" alt="蓝调时刻的考文特花园微缩场景，圣诞树和市集摊位亮起暖灯" fetchpriority="high">
       </figure>
       <div class="feature-copy">
         <p class="project-kind">交互与 3D · Field Editions</p>
@@ -95,8 +95,8 @@
         <p class="description">从考文特花园的圣诞市集到摄政街的天使灯，探索 13 处伦敦 3D 微缩街景。切换白天、黄昏与夜晚，也可以从客厅推窗看雪。</p>
         <a class="project-link" href="https://a-london-christmas-atlas.chirpycrane64.chatgpt.site/">在线体验 <span aria-hidden="true">↗</span></a>
         <div class="project-downloads">
-          <a href="interactive/london-christmas/a-london-christmas-v4-offline.zip" download>下载离线版</a>
-          <a href="interactive/london-christmas/a-london-christmas-v4-source.zip" download>下载源码</a>
+          <a href="a-london-christmas-v4-offline.zip" download>下载离线版</a>
+          <a href="a-london-christmas-v4-source.zip" download>下载源码</a>
         </div>
       </div>
     </article>
@@ -119,15 +119,15 @@
     <section class="details" id="details" aria-labelledby="details-title">
       <h2 id="details-title">街景、窗景与明信片</h2>
       <figure>
-        <img src="interactive/london-christmas/street.png" alt="从摄政街路面仰看天使灯，红色双层巴士驶近镜头" loading="lazy">
+        <img src="street.png" alt="从摄政街路面仰看天使灯，红色双层巴士驶近镜头" loading="lazy">
         <figcaption>切换到街道视角，走到天使灯与红色双层巴士之间。</figcaption>
       </figure>
       <figure>
-        <img src="interactive/london-christmas/window-view.png" alt="从客厅木窗望向亮着天使灯的摄政街，红色双层巴士驶过" loading="lazy">
+        <img src="window-view.png" alt="从客厅木窗望向亮着天使灯的摄政街，红色双层巴士驶过" loading="lazy">
         <figcaption>打开客厅窗户，镜头移到窗前，可以看见正在下雪的摄政街。</figcaption>
       </figure>
       <figure>
-        <img src="interactive/london-christmas/postcard.png" alt="缀着冬青枝的明信片，画着黄昏时的大本钟和威斯敏斯特桥" loading="lazy">
+        <img src="postcard.png" alt="缀着冬青枝的明信片，画着黄昏时的大本钟和威斯敏斯特桥" loading="lazy">
         <figcaption>从长椅打开一张冬日明信片，看威斯敏斯特桥的灯光落在泰晤士河上。</figcaption>
       </figure>
     </section>

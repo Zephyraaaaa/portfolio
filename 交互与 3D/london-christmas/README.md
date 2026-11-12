@@ -2,9 +2,9 @@
 
 《Field Editions》交互杂志的伦敦特辑。以 13 座 3D 微缩街景串起伦敦西区的圣诞灯饰、橱窗和市集，从考文特花园出发，也能走进一间正对摄政街的客厅。
 
-[在线体验](https://a-london-christmas-atlas.chirpycrane64.chatgpt.site/) · [离线版 ZIP](../../interactive/london-christmas/a-london-christmas-v4-offline.zip) · [源码 ZIP](../../interactive/london-christmas/a-london-christmas-v4-source.zip)
+[在线体验](https://a-london-christmas-atlas.chirpycrane64.chatgpt.site/) · [离线版 ZIP](a-london-christmas-v4-offline.zip) · [源码 ZIP](a-london-christmas-v4-source.zip)
 
-![考文特花园的微缩市集，暖灯映着积雪和圣诞树](../../interactive/london-christmas/cover.png)
+![考文特花园的微缩市集，暖灯映着积雪和圣诞树](cover.png)
 
 ## 设计理念
 
@@ -20,12 +20,12 @@
 
 切换到街道视角，从红色双层巴士旁仰看摄政街的天使灯。
 
-![摄政街视角](../../interactive/london-christmas/street.png)
+![摄政街视角](street.png)
 
 打开客厅的木窗，移到窗前看正在下雪的街道。
 
-![窗边视角](../../interactive/london-christmas/window-view.png)
+![窗边视角](window-view.png)
 
 点击长椅展开带透视摆动的明信片，画面里是蓝调时刻的威斯敏斯特桥与泰晤士河。
 
-![威斯敏斯特明信片](../../interactive/london-christmas/postcard.png)
+![威斯敏斯特明信片](postcard.png)

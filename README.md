@@ -1,6 +1,9 @@
 # portfolio
 个人作品集，收录品牌视觉、文化包装、互动网页和游戏原型。
 
-## 交互与 3D
+## 作品分类
 
-- [伦敦圣诞 · A London Christmas Atlas](%E4%BA%A4%E4%BA%92%E4%B8%8E%203D/london-christmas/README.md) — 一张可探索 13 处伦敦圣诞街景的 3D 微缩地图。[在线体验](https://a-london-christmas-atlas.chirpycrane64.chatgpt.site/)
+- [交互与 3D](%E4%BA%A4%E4%BA%92%E4%B8%8E%203D/)
+- [动态影像](%E5%8A%A8%E6%80%81%E5%BD%B1%E5%83%8F/)
+- [品牌与包装](%E5%93%81%E7%89%8C%E4%B8%8E%E5%8C%85%E8%A3%85/)
+- [插画与出版](%E6%8F%92%E7%94%BB%E4%B8%8E%E5%87%BA%E7%89%88/)
