@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="涪满江榨菜系列包装设计。重庆涪满江生态农业科技有限公司委托，产教融合项目。">
+  <meta name="theme-color" content="#f7f4ec">
+  <title>涪满江榨菜包装设计 · 泽菲拉</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #f7f4ec;
+      --ink: #23251f;
+      --muted: #5b5b4f;
+      --line: #d9d2c2;
+      --green: #2e5545;
+      --tint: #e9ede3;
+      --serif: "Instrument Serif", "Songti SC", SimSun, Georgia, serif;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Inter", "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; line-height: 1.7; }
+    h1, h2, p, figure { margin: 0; }
+    a { color: var(--green); text-underline-offset: .24em; }
+    a:focus-visible { outline: 2px solid var(--green); outline-offset: 4px; }
+    .frame { width: min(1220px, calc(100% - 64px)); margin-inline: auto; }
+    .top { border-bottom: 1px solid var(--line); }
+    .top .frame { display: flex; align-items: center; justify-content: space-between; gap: 18px; min-height: 65px; }
+    .wordmark { font-size: .8rem; font-weight: 800; letter-spacing: .14em; text-decoration: none; }
+    .back { font-size: .875rem; }
+    h1, h2 { font-family: var(--serif); font-weight: 700; }
+    h1 { font-size: clamp(3.6rem, 6.6vw, 6.3rem); line-height: 1.02; letter-spacing: -.055em; }
+    h2 { font-size: clamp(1.85rem, 3.3vw, 3rem); line-height: 1.2; }
+    .hero { display: grid; grid-template-columns: minmax(0, .82fr) minmax(0, 1.18fr); gap: clamp(25px, 5vw, 78px); align-items: center; padding-block: clamp(34px, 5.2vw, 76px); }
+    .type { color: var(--green); font-size: .82rem; font-weight: 750; margin-bottom: 12px; }
+    .subtitle { font-size: clamp(1.15rem, 2.1vw, 1.55rem); margin-top: 14px; }
+    .intro { color: var(--muted); max-width: 27em; margin-top: 18px; }
+    img { display: block; width: 100%; height: auto; background: #e9e2d5; }
+    .hero img { aspect-ratio: 4 / 3; object-fit: cover; }
+    figcaption { color: var(--muted); font-size: .86rem; padding-top: 9px; }
+    .brief { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 22px 64px; padding: clamp(23px, 3.3vw, 42px); background: var(--tint); }
+    .brief h2 { font-size: 1.3rem; }
+    .brief p { margin-top: 8px; }
+    .block { padding-block: clamp(32px, 5vw, 68px); }
+    .process { display: grid; grid-template-columns: minmax(0, .75fr) minmax(0, 1.25fr); gap: clamp(20px, 4.5vw, 66px); align-items: center; }
+    .process p { color: var(--muted); margin-top: 13px; max-width: 28em; }
+    .samples { border-top: 1px solid var(--line); }
+    .samples > p { color: var(--muted); margin: 10px 0 24px; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+    .grid img { aspect-ratio: 5 / 4; object-fit: cover; }
+    .grid .pouches { object-position: 50% 54%; }
+    .display { margin-top: 26px; }
+    .display img { aspect-ratio: 16 / 9; object-fit: cover; object-position: 50% 52%; }
+    .footer { border-top: 1px solid var(--line); padding-block: 24px 36px; font-size: .875rem; }
+    @media (max-width: 800px) {
+      .frame { width: calc(100% - 40px); }
+      .hero, .process { grid-template-columns: 1fr; }
+      .hero { gap: 22px; }
+    }
+    @media (max-width: 560px) {
+      .frame { width: calc(100% - 32px); }
+      .top .frame { min-height: 55px; }
+      .brief, .grid { grid-template-columns: 1fr; }
+      .display img { aspect-ratio: 4 / 3; }
+    }
+  </style>
+</head>
+<body>
+  <header class="top">
+    <nav class="frame" aria-label="作品集导航">
+      <a class="wordmark" href="../../" aria-label="泽菲拉作品集首页">ZEPHYRA</a>
+      <a class="back" href="../">返回品牌与包装 <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main class="frame">
+    <section class="hero" aria-labelledby="title">
+      <div>
+        <p class="type">企业委托 · 产教融合</p>
+        <h1 id="title">涪满江榨菜</h1>
+        <p class="subtitle">涪陵地方食品系列包装设计</p>
+        <p class="intro">受重庆涪满江生态农业科技有限公司委托，在产教融合项目中完成袋装、罐装与礼盒的系列包装设计，并制作实物样品用于展陈。</p>
+      </div>
+      <figure>
+        <img src="images/cover.webp" width="1600" height="1200" alt="涪满江榨菜礼盒实物，编织盒外配有白色纸套、青绿腰封与涪陵榨菜字样" fetchpriority="high">
+        <figcaption>涪满江榨菜礼盒实拍</figcaption>
+      </figure>
+    </section>
+
+    <section class="brief" aria-label="项目背景与交付">
+      <div>
+        <h2>企业需求</h2>
+        <p>围绕 70 g 日常销售袋装、600–800 g 礼盒和包装容器展开设计，在同一品牌下区分日常食用与送礼场景，并体现涪陵地域特色。</p>
+      </div>
+      <div>
+        <h2>项目交付</h2>
+        <p>形成 50 g 与 70 g 小袋、瓶贴、中包装和礼盒等设计文件，并制作包装样品。展陈也呈现了罐装样品、挂件和明信片。</p>
+      </div>
+    </section>
+
+    <section class="block process" aria-labelledby="process-title">
+      <div>
+        <h2 id="process-title">纸套上的榨菜工艺</h2>
+        <p>礼盒用编织外盒搭配米白纸套和青绿腰封。正面突出「涪陵榨菜」，另一面用「三榨三腌」及简短的工艺说明，把当地的制作方式讲给收到礼盒的人。</p>
+      </div>
+      <figure>
+        <img src="images/process.webp" width="1600" height="1200" alt="礼盒纸套上的三榨三腌标题和工艺说明" loading="lazy">
+        <figcaption>礼盒纸套上的工艺说明</figcaption>
+      </figure>
+    </section>
+
+    <section class="block samples" aria-labelledby="samples-title">
+      <h2 id="samples-title">包装样品与展陈</h2>
+      <p>从日常取用的小袋，到摆上展台的罐装和礼盒。</p>
+      <div class="grid">
+        <figure>
+          <img class="pouches" src="images/pouches.webp" width="1280" height="1707" alt="涪满江榨菜小袋样品铺在深绿色桌布上，统一使用青绿色和米白色" loading="lazy">
+          <figcaption>袋装样品</figcaption>
+        </figure>
+        <figure>
+          <img src="images/jar.webp" width="1600" height="1200" alt="贴有涪满江标签的深色榨菜罐，搭配红色绳网展陈" loading="lazy">
+          <figcaption>罐装样品</figcaption>
+        </figure>
+      </div>
+      <figure class="display">
+        <img src="images/display.webp" width="1600" height="1200" alt="展台上的涪满江榨菜礼盒、小袋、罐装、挂件和明信片" loading="lazy">
+        <figcaption>系列包装与周边的现场展陈</figcaption>
+      </figure>
+    </section>
+    <footer class="footer"><a href="../">← 返回品牌与包装</a></footer>
+  </main>
+</body>
+</html>
