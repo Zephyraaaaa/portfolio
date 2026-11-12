@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="侗乡香——三江糯米产品包装系列。米兰设计周获奖作品，含包装实物、展陈与原设计展板。">
+  <title>侗乡香——三江糯米产品包装系列</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #132744;
+      --muted: #4d5661;
+      --paper: #f7f4ec;
+      --line: #d9d6cb;
+      --blue: #183c74;
+      --brass: #805a30;
+      font-family: "Inter", "Microsoft YaHei", "PingFang SC", sans-serif;
+      background: var(--paper);
+      color: var(--ink);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; line-height: 1.65; }
+    a { color: inherit; }
+    a:focus-visible { outline: 3px solid var(--blue); outline-offset: 5px; }
+    .frame { width: min(1320px, calc(100% - 104px)); margin-inline: auto; }
+    .top { border-bottom: 1px solid var(--line); }
+    .top .frame, footer .frame {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 18px;
+      min-height: 65px;
+    }
+    .top a, footer a { font-size: .88rem; text-underline-offset: .24em; }
+    .top strong { font-size: .92rem; letter-spacing: .06em; }
+    main { padding-bottom: 64px; }
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, .67fr) minmax(0, 1.33fr);
+      gap: clamp(30px, 5vw, 72px);
+      align-items: center;
+      padding-block: clamp(38px, 5vw, 74px);
+    }
+    h1, h2, p, figure { margin: 0; }
+    h1, h2 {
+      font-family: "Instrument Serif", "Noto Serif SC", "Songti SC", "SimSun", serif;
+      font-weight: 700;
+    }
+    h1 { font-size: clamp(65px, 8.3vw, 120px); line-height: 1.06; letter-spacing: -.05em; }
+    h2 { font-size: clamp(29px, 3.6vw, 48px); line-height: 1.25; }
+    .award {
+      color: var(--brass);
+      font-size: .84rem;
+      font-weight: 700;
+      letter-spacing: .06em;
+      margin-bottom: 14px;
+    }
+    .subtitle { font-size: clamp(17px, 1.65vw, 24px); margin-top: 12px; font-weight: 650; }
+    .intro { margin-top: 21px; max-width: 34ch; color: var(--muted); font-size: .97rem; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px 19px; align-items: center; margin-top: 24px; }
+    .actions a { font-size: .86rem; text-underline-offset: .25em; }
+    .actions .primary { color: #fff; background: var(--blue); text-decoration: none; padding: 9px 15px; }
+    figure img { display: block; width: 100%; height: auto; background: #e4dfd0; }
+    figcaption { color: var(--muted); padding-top: 8px; font-size: .84rem; }
+    .photo-original img { filter: brightness(1.055) saturate(.94); }
+    .photo-bag img { filter: brightness(1.09) saturate(.91); }
+    .photo-detail img { filter: brightness(1.055) saturate(.92); }
+    .photo-overview img { filter: brightness(1.04) saturate(.93); }
+    section.block { padding-block: clamp(30px, 4.8vw, 62px); border-top: 1px solid var(--line); }
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, .65fr);
+      gap: 18px 36px;
+      align-items: end;
+      margin-bottom: 26px;
+    }
+    .section-head p { color: var(--muted); max-width: 40ch; }
+    .photos { display: grid; grid-template-columns: minmax(0, 16fr) minmax(0, 9fr); gap: 18px; }
+    .photo-original { margin-bottom: 22px; }
+    .photo-overview { margin-top: 25px; }
+    .work {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 30px 70px;
+      background: #eaeef2;
+      padding: clamp(26px, 4.1vw, 56px);
+      margin-top: 28px;
+    }
+    .work p { color: var(--muted); margin-top: 12px; max-width: 43ch; }
+    dl { margin: 0; display: grid; gap: 16px; }
+    dt { font-weight: 750; }
+    dd { margin: 3px 0 0; color: var(--muted); font-size: .94rem; }
+    .boards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    figure a { display: block; }
+    .boards a:hover, figure a:hover { outline: 2px solid var(--blue); outline-offset: 2px; }
+    footer { border-top: 1px solid var(--line); }
+    footer span { color: var(--muted); font-size: .84rem; }
+    @media (max-width: 900px) {
+      .frame { width: calc(100% - 52px); }
+      .hero { grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: 30px; }
+      .section-head { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 650px) {
+      .frame { width: calc(100% - 32px); }
+      .hero, .photos, .boards, .work { grid-template-columns: 1fr; }
+      .hero { padding-top: 34px; }
+      .photos, .boards { gap: 24px; }
+      .top .frame, footer .frame { min-height: 53px; }
+      .work { gap: 19px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="frame">
+      <a href="https://zephyraaaaa.github.io/portfolio/%E5%93%81%E7%89%8C%E4%B8%8E%E5%8C%85%E8%A3%85/">查看品牌与包装</a>
+      <strong>包装设计作品集</strong>
+    </div>
+  </header>
+
+  <main class="frame">
+    <section class="hero" aria-labelledby="title">
+      <div>
+        <p class="award">米兰设计周获奖作品</p>
+        <h1 id="title">侗乡香</h1>
+        <p class="subtitle">三江糯米产品包装系列</p>
+        <p class="intro">把风雨桥、鼓楼和侗族几何纹样带到糯米产品的包装上，让米袋、罐装、碗装与礼盒共享一套地方识别。</p>
+        <div class="actions">
+          <a class="primary" href="#physical">查看包装实物</a>
+          <a href="#boards">查看原设计展板</a>
+        </div>
+      </div>
+      <figure class="main-photo">
+        <a href="images/ecommerce-hero-cloth.png"><img src="images/ecommerce-hero-cloth.png" width="1448" height="1086" alt="暖白棚拍背景下的侗乡香包装系列，展台保留深蓝纹样桌布和蓝染布"></a>
+        <figcaption>电商陈列图 · 保留蓝染桌布，后景经 ImageGen 处理。包装小字以实拍为准。</figcaption>
+      </figure>
+    </section>
+
+    <section class="block" id="physical" aria-labelledby="physical-title">
+      <div class="section-head">
+        <h2 id="physical-title">包装实物与展陈</h2>
+        <p>从礼袋、罐身和碗盖，到盒装与米袋，观察同一组建筑线条和纹样在不同尺寸上的应用。</p>
+      </div>
+      <figure class="photo-original">
+        <a href="images/display-main.webp"><img src="images/display-main.webp" width="1920" height="1440" loading="lazy" alt="侗乡香糯米袋、便捷煮食盒、罐头和花田米食礼盒的原始展陈照片"></a>
+        <figcaption>现场实拍 · 包装文字与材质细节</figcaption>
+      </figure>
+      <div class="photos">
+        <figure class="photo-bag">
+          <a href="images/display-bag.webp"><img src="images/display-bag.webp" width="1600" height="1200" loading="lazy" alt="靛蓝礼袋与米食罐装、碗装实物，礼袋采用风雨桥与鼓楼图形"></a>
+          <figcaption>礼袋、罐身与碗装</figcaption>
+        </figure>
+        <figure class="photo-detail">
+          <a href="images/display-detail.webp"><img src="images/display-detail.webp" width="1200" height="1600" loading="lazy" alt="花田米食木盒、糯米袋与鼓楼插画细节"></a>
+          <figcaption>花田米食 · 木盒与米袋细节</figcaption>
+        </figure>
+      </div>
+      <figure class="photo-overview">
+        <a href="images/display-overview.webp"><img src="images/display-overview.webp" width="1920" height="1080" loading="lazy" alt="整组展陈的现场全景，陈列使用蓝染布、木托和稻穗"></a>
+        <figcaption>展陈全景 · 蓝染布、木托与稻穗为包装提供实物展示背景</figcaption>
+      </figure>
+
+      <div class="work">
+        <div>
+          <h2>从三江到包装</h2>
+          <p>以鼓楼轮廓和侗族几何纹样建立识别，再用靛蓝、米白与金棕把不同包装串成一个系列。</p>
+        </div>
+        <dl>
+          <div><dt>文化线索</dt><dd>风雨桥、鼓楼、侗族纹样与稻田意象。</dd></div>
+          <div><dt>识别设计</dt><dd>将建筑轮廓、稻穗插画和连续纹样应用到标志、标签及包装版面。</dd></div>
+          <div><dt>系列应用</dt><dd>家庭米袋、便捷煮食盒、碗装、罐装、零食袋、礼盒与周边。</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="block" id="boards" aria-labelledby="boards-title">
+      <div class="section-head">
+        <h2 id="boards-title">原设计展板</h2>
+        <p>从品牌溯源、标准色与插画，到包装展开图和应用效果。点击图片可放大，效果图保留原有 AI 标注。</p>
+      </div>
+      <div class="boards">
+        <figure>
+          <a href="images/board-origin.webp"><img src="images/board-origin.webp" width="2100" height="2970" loading="lazy" alt="第一张展板展示品牌溯源、标志说明和三江文化灵感"></a>
+          <figcaption>品牌溯源与设计理念</figcaption>
+        </figure>
+        <figure>
+          <a href="images/board-system.webp"><img src="images/board-system.webp" width="2100" height="2969" loading="lazy" alt="第二张展板展示包装标准色、鼓楼和稻穗插画及多规格包装展开图"></a>
+          <figcaption>视觉识别与包装方案</figcaption>
+        </figure>
+        <figure>
+          <a href="images/board-mockups.webp"><img src="images/board-mockups.webp" width="2100" height="2969" loading="lazy" alt="第三张展板展示米袋、罐装、碗装、礼盒和周边的包装效果图"></a>
+          <figcaption>包装效果图与周边</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="frame">
+      <span>侗乡香 · 三江糯米产品包装系列</span>
+      <a href="https://zephyraaaaa.github.io/portfolio/%E5%93%81%E7%89%8C%E4%B8%8E%E5%8C%85%E8%A3%85/">查看品牌与包装</a>
+    </div>
+  </footer>
+</body>
+</html>
